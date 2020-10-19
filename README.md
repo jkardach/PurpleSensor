@@ -123,7 +123,7 @@ AQ1week Message: 0-50: Air quality is considered satisfactory, and air pollution
 
 ```
 #import "ViewController.h"
-#import "ObjCApp-Swift.h"
+@import PurpleSensor
 
 @interface ViewController () <UpdatePurpleDelegate>
 
