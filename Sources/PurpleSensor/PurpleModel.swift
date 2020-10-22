@@ -13,6 +13,8 @@ import Foundation
     @objc public var temp: String = ""
     @objc public var pressure: String = ""
     @objc public var PMcurrent: String = ""
+    @objc public var lon: Double = 0.0
+    @objc public var lat: Double = 0.0
     
     @objc public var PM: Double = 0.0
     @objc public var PM10min: Double = 0.0
@@ -21,6 +23,7 @@ import Foundation
     @objc public var PM6hr: Double = 0.0
     @objc public var PM24hr: Double = 0.0
     @objc public var PM1week: Double = 0.0
+    @objc public var distance: Double = 0.0
     
     @objc public var AQ: Double {
         get {

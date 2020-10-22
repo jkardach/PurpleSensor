@@ -17,6 +17,8 @@ public struct PurpleData: Codable {
 public struct Purple: Codable {
     let ID: Int
     let Label: String
+    let Lat: Double
+    let Lon: Double
     let PM2_5Value: String?
     let humidity: String?
     let temp_f: String?
